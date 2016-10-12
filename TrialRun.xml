@@ -1,7 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_left" id="146" x="361" y="90">
+  <block type="multimedia_playwav" id="244" x="361" y="116">
+    <field name="WAV"></field>
     <next>
-      <block type="movement_forward" id="104"></block>
+      <block type="multimedia_volume" id="232">
+        <field name="VOLUME">HIGH</field>
+      </block>
     </next>
   </block>
 </xml>
