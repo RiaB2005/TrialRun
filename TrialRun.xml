@@ -1,14 +1,14 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="28" inline="true" x="316" y="-244">
+  <block type="controls_repeat" id="1" inline="true" x="316" y="-244">
     <value name="TIMES">
-      <block type="math_number" id="35">
+      <block type="math_number" id="2">
         <field name="NUM">9</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_left" id="21">
+      <block type="movement_left" id="3">
         <next>
-          <block type="movement_forward" id="1"></block>
+          <block type="movement_forward" id="4"></block>
         </next>
       </block>
     </statement>
